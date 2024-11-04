@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "name": "51Calc",
+    "src": [
+        "src/main.c",
+        "src/util/anime.c",
+        "src/util/logic.c",
+        "src/module/input.c",
+        "src/module/lcd.c",
+        "src/module/status.c",
+        "src/module/sound.c",
+        "src/mode/b2d.c",
+        "src/mode/d2b.c",
+        "src/mode/calc.c",
+        "lib/key.c",
+        "lib/time.c",
+        "lib/lcd1602.c",
+        "lib/led.c"
+    ],
+    "include": [
+        "."
+    ],
+    "outputDir": "build",
+    "linkOpt": ["RAMSIZE(256)"],
+    "compileOpt": ["OPTIMIZE(11,SIZE)"],
+    "keilBinPath": "D:/tools/keilC51/C51/BIN"
+}
